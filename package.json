@@ -1,0 +1,55 @@
+//
+//
+////{
+////  "name": "Vasya",
+////  "age": 25,
+////  "phone": ["996 11 00 22", "996 00 00 00"],
+////  "hasCar": false,
+////  "skills": {
+////    "html": "high",
+////    "css": "excellent",
+////    "js": "beginner"
+////  }
+////}
+//
+////{"name":"John",
+////  "age":20,
+////  "isMarried":false,
+////  "skills":{
+////    "html":"good",
+////    "css":"excellent",
+////    "js":"beginner"
+////  }}
+//
+//
+//
+//{
+//"users": [
+//{
+//"name": "John",
+//"age": 20
+//},
+//{
+//"name": "Pete",
+//"age": 24
+//},
+//{
+//"name": "Vasya",
+//"age": 45
+//}
+//]
+//}
+//const request = new XMLHttpRequest();
+//
+//request.onload = function () {
+//const response = JSON.parse(this.responseText);
+//const users = response.users;
+//
+//for (let i = 0; i < users.length; i++) {
+//document.write(users[i].name + "<br>");
+//}
+//};
+//
+//request.open("GET", "users.json");
+//request.send();
+
